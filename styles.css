@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 20px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.food-card {
+  width: calc(25% - 12px);
+  height: 565px;
+}
+
+.food-image {
+  width: 100%;
+}
+
+.food-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.food-description {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 15px;
+}
